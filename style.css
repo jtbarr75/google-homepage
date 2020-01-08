@@ -60,7 +60,17 @@ li{
     float:left;
 }
 
-#nav-right, #footer-right{
+#nav-right{
+    float:right;
+    margin: .5em 1em;
+    display: inline-block;
+}
+
+#nav-right a{
+    margin: 10px;
+}
+
+#footer-right{
     float:right;
 }
 
@@ -69,11 +79,21 @@ li{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(196, 189, 189);
+    background-color: rgb(236, 234, 234);
+    
 }
 
 .divider{
     width:5px;
     height:auto;
     display:inline-block;
+}
+
+#apps{
+    margin = 0;
+}
+
+img{
+    margin: 0;
+    padding: 0;
 }
